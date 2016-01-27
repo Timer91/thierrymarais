@@ -373,7 +373,7 @@ a.learn_more2:hover{
 }
 
 .work_section {
-	padding:110px 0 20px;
+	padding:70px 0 20px;
 }
 
 
@@ -673,7 +673,7 @@ img {
 }
 .main-section.team{
 	background-color: #f9f9f9;
-	padding:85px 0;
+	padding:50px;
 }
 .main-section.team h6{
 	margin-bottom:40px;
@@ -776,6 +776,22 @@ img {
 }
 .team-leader ul li a.fa-google-plus:hover{
 	color:#dd4b39;
+}
+
+/* Temporary for 1 person */
+.team-leader {
+	width:33%;
+    margin:auto;
+    margin-bottom:24px;
+    text-align:center;
+}
+
+.team-leader-block div * {
+	text-align:center;
+}
+
+.team-leader-block div span {
+	display:block;
 }
 
 /* Twitter Feed
