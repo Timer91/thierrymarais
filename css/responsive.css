@@ -11,6 +11,7 @@
 	.top_cont_inner{ background-size:400px;}
 
 	.top_cont_latest{ background-size:500px;}
+	.contact_logo { max-width:80%; }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -51,11 +52,8 @@
 	.client_profile_pic{ width:150px; height:150px;}
 	.quote_section.flt{ margin:6px 0 0 0;}
 
-
-
-
-
-
+	.contact_section .row > div { margin-bottom:30px; }
+	.contact_logo { max-width:40%; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -69,7 +67,7 @@
 	.client_area{ width:436px;}
 	.quote_section{ width:auto; float:none;}
 	.service_area{ padding:25px 0px;}
-	.service_block{ margin:0 0 20px 0;}
+	.service_block{ margin:0 0 40px 0;}
 	#service{ padding:20px 0px;}
 	.work_section{ padding:44px 0px 10px}
 	#work_outer{background:none; padding:25px 0px; }
@@ -102,7 +100,7 @@
 	.c-logo-part ul a{ margin-bottom:5px;}
 	.main-section.team{ padding:60px 0 50px;}
 	.business-talking h2{ font-size:36px;}
-	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
+	.contact-info-box{ font-size:12px; }
 	.contact-info-box span{ line-height:18px;}
 	.social-link{ margin-left:30px;}
 	.form{ margin:0 30px;}
@@ -139,20 +137,23 @@
 	.res-nav_click a:hover{ text-decoration:none; color:#060;}
 	.nav ul{ background:#fff; display:none;}
 
-.nav ul.toggle{
-	display:none;
-	visibility:visible;
-	height:auto;
-	overflow:auto;
+	.nav ul.toggle{
+		display:none;
+		visibility:visible;
+		height:auto;
+		overflow:auto;
+		}
+
+	.work_pic {
+	    position: relative;
+	    right: 0;
+	    top: auto;
+	    width: 90%;
+		margin-left: 10%;
 	}
 
-.work_pic {
-    position: relative;
-    right: 0;
-    top: auto;
-    width: 90%;
-	margin-left: 10%;
-}
+	.contact_section .row > div { margin-bottom:30px; }
+
 
 }
 
