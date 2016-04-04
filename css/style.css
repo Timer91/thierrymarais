@@ -83,6 +83,7 @@ body {
 	font-weight:normal;
 	color:#888888;
 	margin:0;
+	overflow-x: hidden;
 }
 b {
  color:#8B8B8B
@@ -127,7 +128,7 @@ section { padding-top:50px; padding-bottom:70px; }
 
 #header_outer { background:#ffffff; padding:15px 0px; text-align:center; }
 
-.logo { display:block; text-align:center; margin-bottom:1em; }
+.logo { display:block; text-align:center; }
 
 /* Nav Styles
 ---------------------------------*/
@@ -178,16 +179,16 @@ section { padding-top:50px; padding-bottom:70px; }
 	background:#f9f9f9;
 }
 
-.home_text {
+.home-text {
 	padding: 150px 50px;
 	background-color: rgba(255, 255, 255, .75);
 }
 
-.home_text h1 {
+.home-text h1 {
 	font-size: 60px;
 }
 
-.home_text p {
+.home-text p {
 	margin-top: 32px;
 	font-size: 33px;
     line-height: 1.2;
@@ -783,44 +784,13 @@ img {
 	height: 400px;
 }
 
-/* Footer
----------------------------------*/
-
-.footer_section{
-	/*background:url(../img/pattern_bg.jpg) repeat left top;*/
-	/*color:black;*/
-}
-
-.footer_bottom{
-	border-top:1px solid #333333;
-	padding:40px 0;
-	}
-
-.footer_bottom span{
-	display:block;
-	font-size:14px;
-	color:#cccccc;
-	text-align:center;
-	}
-
-.footer_bottom span a{
-	display:inline-block;
-	color:#7cc576;
-	font-size:16px;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
-	}
-
-.footer_bottom span a:hover{
-	color: #fff;
-}
-
 /* Copyright
 ---------------------------------*/
-.copyright {
-	background:url(../img/pattern_bg.jpg) repeat left top;
-	padding:0;
+.copyright{
+	padding-top:30px;
+	text-align:center;
+	font-size:14px;
+	color:#cccccc;
 }
 
 /* Animation Timers

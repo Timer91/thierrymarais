@@ -41,11 +41,14 @@
 	.header h1{ font-size:46px;}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
-	.logo { float:inherit; max-width:100%; }
+	.logo { float:inherit; max-width:100%; margin-bottom:1em; }
 	.main-nav { display:block !important; }
 	.main-nav li a { padding:8px 15px;}
 	.nav { float: inherit; }
 	.nav ul li { margin:0 20px; }
+
+	/* Home */
+	.home-text { padding: 60px 50px; }
 
 
 	h2{ font-size:30px}
@@ -100,6 +103,9 @@
 	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
 	.main-nav li a:hover{color:#7cc576}
 
+	/* Home */
+	.home-text { padding: 60px 50px; }
+
 	/* services */
 	#service .overview h1 	{ font-size: 28px; }
 	#service .overview p 	{ font-size: 18px; }
@@ -143,7 +149,6 @@
 	.contact-info-box span{ line-height:18px;}
 	.social-link{ margin-left:30px;}
 	.form{ margin:0 30px;}
-	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
 	.main-section.contact{ padding:60px 0 70px}
 	.client-part-haead{ font-size:20px; line-height:30px;}
@@ -184,9 +189,9 @@
 }
 
 @media only screen and (max-width: 479px) {
-	.home_text 		{ margin-left:-30px; margin-right:-30px; }
-	.home_text h1 	{ font-size: 38px; }
-	.home_text p 	{ font-size: 23px; }
+	.home-text 		{ margin-left:-30px; margin-right:-30px; }
+	.home-text h1 	{ font-size: 38px; }
+	.home-text p 	{ font-size: 23px; }
 
 	/****Mobile Portrait 320 ****/
 	#filters ul li{ display:block;}
