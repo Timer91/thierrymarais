@@ -9,7 +9,6 @@
 	<link href="favicon.png" 			rel="icon" type="image/png">
 	<link href="css/linecons.css" 		rel="stylesheet" type="text/css">
 	<link href="css/font-awesome.css" 	rel="stylesheet" type="text/css">
-	<link href="css/responsive.css" 	rel="stylesheet" type="text/css">
 	<link href="css/animate.css" 		rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap-freelancer/gh-pages/css/freelancer.css" rel="stylesheet" type="text/css">
@@ -18,6 +17,7 @@
 	<!-- Css Gallery -->
 	<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="css/responsive.css" 	rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
 			</a>
 			<nav class="nav" id="nav">
 				<ul class="toggle">
-					<li><a href="#top_content">Accueil</a></li>
+					<li><a href="#home">Accueil</a></li>
 					<li><a href="#service">Services</a></li>
 					<li><a href="#domaines">Domaines</a></li>
 					<li><a href="#gallery">Gallerie</a></li>
@@ -37,7 +37,7 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<ul class="">
-					<li><a href="#top_content">Accueil</a></li>
+					<li><a href="#home">Accueil</a></li>
 					<li><a href="#service">Services</a></li>
 					<li><a href="#domaines">Domaines</a></li>
 					<li><a href="#gallery">Gallerie</a></li>
@@ -48,37 +48,34 @@
 		</div>
 	</header>
 
-	<!-- Top_content -->
-	<section id="top_content" class="top_cont_outer">
-		<div class="top_cont_inner">
-			<div class="container">
-				<div class="top_content">
-					<h2>
-						Installateur en télécommunication et courant faible
-					</h2>
-					<div class="row">
-						<div class="col-lg-7 col-sm-7">
-							<div class="top_left_cont flipInY wow animated">
-								<p>
-									AMServ-IT vous accompagne, particuliers ou professionnels, dans tous vos projets de modernisation ou d’optimisation de vos installations et services.<br><br>
-									Créée en 2016 et située en Ile de France, AMServ-IT apporte le savoir-faire de son dirigeant avec ses 26 ans d’expériences (audit, conseil, assistance, déploiement). Son offre globale inclut matériel et services.<br><br>
-									A l’ère du digital, AMServ-IT allie créativité et technologie pour donner vie à vos idées.<br>
-									Grâce à une stratégie nationale, AMServ-IT renforce la compétitivité des entreprises via une gamme de produits et de services nouvelle génération, répondant à vos besoins dans le domaine du courant faible.
-								</p>
-								<a href="#service" class="learn_more2">En savoir plus</a>
-							</div>
-						</div>
-						<div class="col-lg-5 col-sm-5"></div>
+	<!-- introduction -->
+	<section id="home" class="parallax-window" data-parallax="scroll">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5"></div>
+				<div class="col-md-7">
+					<div class="home_text animated fadeInDown wow">
+						<h1>Vos idées sont nos projets</h1>
+						<p>AMServ-IT apporte le savoir-faire de son dirigeant avec ses 26 ans d’expériences</p>
 					</div>
 				</div>
 			</div>
-		</div>
+ 		</div>
 	</section>
 
 	<!-- Services -->
 	<section id="service">
 		<div class="container">
-			<h2>Services</h2>
+			<div class="overview">
+				<h1>
+					<b>AMServ-IT</b><br>VOTRE INSTALLATEUR EN TÉLÉCOMMUNICATION ET COURANT FAIBLE
+				</h1>
+				<p class="slogan">
+					Nous accompagnons particuliers et professionnels dans leurs projets de <b>modernisation</b> ou d’<b>optimisation de leurs installations et services</b>.
+					<br><br>
+					A l’ère du digital, nous allions <b>créativité</b> et <b>technologie</b> pour donner vie à vos idées.<br>
+				</p>
+			</div>
 			<div class="service_area">
 				<div class="row">
 					<div class="col-md-4">
@@ -91,9 +88,9 @@
 							<h3 class="animated fadeInUp wow">
 								Audit / Conseils
 							</h3>
-							<p class="animated fadeInDown wow" style="text-align:justify">
-								AMServ-IT vous accompagne et vous conseille afin d'optimer votre projet et être au plus proche de votre budget.<br/>
-								De par mon expertise professionnelle et vos idées, j'apporte mon expérience et le choix technologique pour vous orienter et vous accompagner dans la mise en œuvre de votre projet.
+							<p class="animated fadeInDown wow">
+								Nous vous conseillons afin d'optimiser votre projet et être au plus proche de votre budget.<br/>
+								<!-- De par mon expertise professionnelle et vos idées, j'apporte mon expérience et le choix technologique pour vous orienter et vous accompagner dans la mise en œuvre de votre projet. -->
 							</p>
 						</div>
 					</div>
@@ -107,12 +104,8 @@
 							<h3 class="animated fadeInUp wow">
 								Installations / Réalisations
 							</h3>
-							<p class="animated fadeInDown wow" style="text-align:justify">
-								AMServ-IT c'est une assurance sur le degré de maîtrise des opérations.<br/>
-								Dès lors de la livraison, je m'engage pour la réalisation des chantiers, planning, suivi, réunion, compte rendu et réception.
-								Coordination et mise en service des liens opérateurs. 
-								Le management: des techniciens et experts.
-								Réalisation des tests et DOE.
+							<p class="animated fadeInDown wow">
+								Lorsque nous débutons un projet, notre équipe s'engage à fournir une prestation de qualité incluant un suivi et des comptes rendus réguliers.
 							</p>
 						</div>
 					</div>
@@ -126,9 +119,8 @@
 							<h3 class="animated fadeInUp wow">
 								Maintenances
 							</h3>
-							<p class="animated fadeInDown wow" style="text-align:justify">
-								AMServ-IT vous propose de mettre en place un contrat de maintenance adapté à vos besoins.<br/>
-								Cela vous garantie le bon fonctionnement de votre installation.
+							<p class="animated fadeInDown wow">
+								Nous proposons un contrat de maintenance adapté à vos besoins qui vous garanti le bon fonctionnement de votre installation.
 							</p>
 						</div>
 					</div>
@@ -233,44 +225,44 @@
 			<h2>Gallerie</h2>
 			<h6>Quelques exemples de mon savoir-faire</h6>
 			<div id="links">
-				<a href="img/gallery/1.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/1.jpg" alt="Banana">
+				<a href="img/gallery/1.jpg" title="Coffret informatique" data-gallery>
+					<img src="img/gallery/thumbnails/1.jpg" alt="Coffret informatique">
 				</a>
-				<a href="img/gallery/2.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/2.jpg" alt="Banana">
+				<a href="img/gallery/2.jpg" title="Radar alarme" data-gallery>
+					<img src="img/gallery/thumbnails/2.jpg" alt="Radar alarme">
 				</a>
-				<a href="img/gallery/3.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/3.jpg" alt="Banana">
+				<a href="img/gallery/3.jpg" title="Téléphone MITEL" data-gallery>
+					<img src="img/gallery/thumbnails/3.jpg" alt="Téléphone MITEL">
 				</a>
-				<a href="img/gallery/4.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/4.jpg" alt="Banana">
+				<a href="img/gallery/4.jpg" title="Chemin de câbles" data-gallery>
+					<img src="img/gallery/thumbnails/4.jpg" alt="Chemin de câbles">
 				</a>
-				<a href="img/gallery/5.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/5.jpg" alt="Banana">
+				<a href="img/gallery/5.jpg" title="Pose de goulotte - systère en égout" data-gallery>
+					<img src="img/gallery/thumbnails/5.jpg" alt="Pose de goulotte - systère en égout">
 				</a>
-				<a href="img/gallery/6.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/6.jpg" alt="Banana">
+				<a href="img/gallery/6.jpg" title="Passage de fibre optique dans la goulotte systère " data-gallery>
+					<img src="img/gallery/thumbnails/6.jpg" alt="Passage de fibre optique dans la goulotte systère ">
 				</a>
-				<a href="img/gallery/7.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/7.jpg" alt="Banana">
+				<a href="img/gallery/7.jpg" title="Valise de test incendie, encodage des éléments et tests" data-gallery>
+					<img src="img/gallery/thumbnails/7.jpg" alt="Valise de test incendie, encodage des éléments et tests">
 				</a>
-				<a href="img/gallery/8.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/8.jpg" alt="Banana">
+				<a href="img/gallery/8.jpg" title="Centrale Incendie" data-gallery>
+					<img src="img/gallery/thumbnails/8.jpg" alt="Centrale Incendie">
 				</a>
-				<a href="img/gallery/9.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/9.jpg" alt="Banana">
+				<a href="img/gallery/9.jpg" title="Tableau électrique / centrale d’alarme/ câblage informatique et interphone" data-gallery>
+					<img src="img/gallery/thumbnails/9.jpg" alt="Tableau électrique / centrale d’alarme / câblage informatique et interphone">
 				</a>
-				<a href="img/gallery/10.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/10.jpg" alt="Banana">
+				<a href="img/gallery/10.jpg" title="Câblage de la centrale incendie" data-gallery>
+					<img src="img/gallery/thumbnails/10.jpg" alt="Câblage de la centrale incendie">
 				</a>
-				<a href="img/gallery/11.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/11.jpg" alt="Banana">
+				<a href="img/gallery/11.jpg" title="Baie informatique / Câblage réseau informatique" data-gallery>
+					<img src="img/gallery/thumbnails/11.jpg" alt="Baie informatique / Câblage réseau informatique">
 				</a>
-				<a href="img/gallery/12.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/12.jpg" alt="Banana">
+				<a href="img/gallery/12.jpg" title="Automatisme des portes" data-gallery>
+					<img src="img/gallery/thumbnails/12.jpg" alt="Automatisme des portes">
 				</a>
-				<a href="img/gallery/13.jpg" title="Banana" data-gallery>
-					<img src="img/gallery/thumbnails/13.jpg" alt="Banana">
+				<a href="img/gallery/13.jpg" title="Télécommunication d’entreprise (gateway)" data-gallery>
+					<img src="img/gallery/thumbnails/13.jpg" alt="Télécommunication d’entreprise (gateway)">
 				</a>
 			</div>
 			<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
@@ -332,9 +324,10 @@
 					<div class="col-md-6">
 						<img class="contact_logo" src="img/logo_sans_slogan.png">
 						<p>
-							<b>AMServ-IT EURL</b><br><br>
+							<b>AMServ-IT SASU</b><br><br>
 							<span><i class="fa fa-home"></i>  1, Rue Lucien Ferrand<br>91360 Villemoisson-Sur-Orge<br>France<br></span><br>
-							<span><i class="fa fa-phone"></i>  +33 (0)6 23 12 17 13<br></span><br>
+							<span><i class="fa fa-phone"></i>  +33 (0)9 80 50 35 35<br></span>
+							<span><i class="fa fa-mobile"></i>  +33 (0)6 23 12 17 13<br></span><br>
 							<span><i class="fa fa-envelope"></i>  thierry.marais@outlook.com</span>
 						</p>
 					</div>
@@ -391,12 +384,12 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="js/blueimp-gallery.min.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/jquery-scrolltofixed.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/jquery.isotope.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/classie.js"></script>
+	<script src="js/parallax.min.js"></script>
 	<!--[if lt IE 9]>
 			<script src="js/respond-1.1.0.min.js"></script>
 			<script src="js/html5shiv.js"></script>
@@ -436,12 +429,6 @@
 			$('.res-nav_click').click(function(){
 				$('.main-nav').slideToggle();
 				return false
-			});
-
-			$(window).load(function() {
-			 	$('.flexslider').flexslider({
-					animation: "slide"
-				});
 			});
 		});
 
