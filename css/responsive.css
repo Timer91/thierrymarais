@@ -28,7 +28,6 @@
 	.portfolioContainer { margin:0px auto;}
 	#work_outer{ background-size:450px; padding:40px 0px; background-position:right 230px; }
 
-	.top_cont_latest{ background-size:500px;}
 	.contact_logo { max-width:80%; }
 }
 
@@ -65,7 +64,7 @@
 	.social-link{ margin:0;}
 
 
-	.service_block{ margin:0 0 35px 0;}
+	.service-block{ margin:0 0 35px 0;}
 	#service{ padding:40px 0px;}
 	.service_area{ padding:40px 0px;}
 	#work_outer{ background-size:350px; padding:40px 0px; background-position:right 130px; }
@@ -121,7 +120,7 @@
 	.client_area{ width:436px;}
 	.quote_section{ width:auto; float:none;}
 	.service_area{ padding:25px 0px;}
-	.service_block{ margin:0 0 40px 0;}
+	.service-block{ margin:0 0 40px 0;}
 	#service{ padding:20px 0px;}
 	.work_section{ padding:44px 0px 10px}
 	#work_outer{background:none; padding:25px 0px; }
@@ -156,11 +155,7 @@
 	.main-section.contact{ background-size:contain;}
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
-	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
-	.isotope-item{ width:300px; margin:0px auto;}
-	.isotope{ width:400px; margin:0px auto;}
-	.Portfolio-box{}
-	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+
 
 	.portfolioContainer { max-width:350px; margin:0px auto;}
 
@@ -174,14 +169,6 @@
 	}
 	.res-nav_click a{ text-decoration:none;}
 	.res-nav_click a:hover{ text-decoration:none; color:#060;}
-
-	.work_pic {
-	    position: relative;
-	    right: 0;
-	    top: auto;
-	    width: 90%;
-		margin-left: 10%;
-	}
 
 	.contact_section .row > div { margin-bottom:30px; }
 
