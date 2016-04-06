@@ -461,11 +461,11 @@
 		wow.init();
 
 		$(window).load(function(){
-			$('a').bind('click',function(event){
-				var $anchor = $(this);
+			$('.nav a').bind('click',function(event){
+				var anchor = $(this);
 
 				$('html, body').stop().animate({
-					scrollTop: $($anchor.attr('href')).offset().top - 91
+					scrollTop: $(anchor.attr('href')).offset().top - 91
 				}, 1500,'easeInOutExpo');
 				event.preventDefault();
 			});
