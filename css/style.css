@@ -531,6 +531,34 @@ img {
 	height: 400px;
 }
 
+form input[type="text"][disabled], form textarea[disabled] {
+    background:#fff
+}
+form input[type="text"].error, form textarea.error {
+    background:#e6e6e6;
+    border-color:#c0392b
+}
+fieldset {
+    border:0px;
+    margin:0;
+    padding:0
+}
+.required {
+    color:#e9266d
+}
+#success, #error {
+    display:none
+}
+#success span p, #error span p {
+    margin-top:6em
+}
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}
+
 /* Copyright
 ---------------------------------*/
 .copyright{
