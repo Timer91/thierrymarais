@@ -52,8 +52,6 @@ $( function() {
                     $( '#success' ).fadeIn();
                 });
             })
-            .done( function() {
-            })
             .fail( function() {
                 $('#form').fadeTo( "slow", 0.15, function() {
                     $('#error').fadeIn();
